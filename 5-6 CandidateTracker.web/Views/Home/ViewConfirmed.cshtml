@@ -1,0 +1,35 @@
+﻿@using _5_6_CandidateTracker.data
+@model IEnumerable<Candidate>
+@{
+    ViewData["Title"] = "ViewConfirmed";
+}
+
+<h2>ViewConfirmed</h2>
+
+<div class="container">
+    <button class="btn btn-success" id="toggle-notes">Toggle Notes</button>
+    <br />
+    <br />
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Email</th>
+            <th class="notes">Notes</th>
+        </tr>
+        @foreach (Candidate c in Model)
+        {
+            <tr>
+                <td>@c.Name</td>
+                <td>@c.Number</td>
+                <td>@c.Email</td>
+                <td class="notes">@c.Notes</td>
+            </tr>
+        }
+    </table>
+</div>
+
+
+@section scripts{ 
+<script src="~/js/confirm-decline.js"></script>
+}

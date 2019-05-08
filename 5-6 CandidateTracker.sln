@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-6 CandidateTracker.web", "5-6 CandidateTracker.web\5-6 CandidateTracker.web.csproj", "{C81FAEC2-B94C-44E4-B711-F9BA44FD5E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-6 CandidateTracker.data", "5-6 CandidateTracker.data\5-6 CandidateTracker.data.csproj", "{68B6D4C9-D332-4918-BF3C-626ABAF46D38}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C81FAEC2-B94C-44E4-B711-F9BA44FD5E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81FAEC2-B94C-44E4-B711-F9BA44FD5E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81FAEC2-B94C-44E4-B711-F9BA44FD5E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81FAEC2-B94C-44E4-B711-F9BA44FD5E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B6D4C9-D332-4918-BF3C-626ABAF46D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B6D4C9-D332-4918-BF3C-626ABAF46D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B6D4C9-D332-4918-BF3C-626ABAF46D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B6D4C9-D332-4918-BF3C-626ABAF46D38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
