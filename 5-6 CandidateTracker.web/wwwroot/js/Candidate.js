@@ -1,4 +1,5 @@
 ﻿$(() => {
+    //should have sep post and get - post conf/decl and then sep get counts
     $("#confirm").on('click', function () {
         const id = $(this).data("id");
         $.post("/home/changestatus?confirm=true", { id }, function (counts) {
@@ -20,8 +21,9 @@
         document.getElementById('pending-ct').textContent = counts.pending;
         document.getElementById('confirmed-ct').textContent = counts.confirmed;
         document.getElementById('declined-ct').textContent = counts.declined;
+        //or could just do $("#pending-ct").text = counts.pending; ....
 
     }
 
-    $("")
+    
 });
